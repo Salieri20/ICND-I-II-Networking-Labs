@@ -44,7 +44,7 @@
 ## 🛠 Labs
 | Lab | Topic | Key Skills | Key Commands |
 |-----|-------|------------|--------------|
-| [Lab 1](Labs/Lab1-Basic-Device-Config) | Device Initialization | CLI proficiency, Password encryption | `enable secret`, `line console 0`, `service password-encryption` |
+| [Lab 1](Labs/01-Initial-Device-Setup) | Device Initialization | CLI proficiency, Password encryption | `enable secret`, `line console 0`, `service password-encryption` |
 | [Lab 2](Labs/Lab2-VLAN-Trunking) | Advanced VLANs | VLAN trunking, VTP configuration | `switchport trunk allowed vlan`, `vtp domain`, `show vtp status` |
 | [Lab 3](Labs/Lab3-InterVLAN-Routing) | Layer 3 Switching | SVI configuration, Router-on-a-stick | `interface vlan 10`, `encapsulation dot1q`, `show interface trunk` |
 | [Lab 4](Labs/Lab4-OSPF) | OSPF Implementation | Multi-area OSPF, Route summarization | `area range`, `network 10.0.0.0 0.255.255.255 area 0`, `passive-interface` |
