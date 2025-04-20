@@ -1,6 +1,6 @@
 # ICND I & II - Networking Labs
 **Institution:** ITI  
-**Tools:** Cisco Packet Tracer
+**Tools:** Cisco Packet Tracer, Wireshark, GNS3
 
 ## 📌 Overview
 ### Core Networking Competencies Demonstrated:
@@ -44,14 +44,14 @@
 ## 🛠 Labs
 | Lab | Topic | Key Skills | Key Commands |
 |-----|-------|------------|--------------|
-| [Lab 1](/Labs/Lab1-Basic-Device-Config) | Device Initialization | CLI proficiency, Password encryption | `enable secret`, `line console 0`, `service password-encryption` |
-| [Lab 2](/Labs/Lab2-VLAN-Trunking) | Advanced VLANs | VLAN trunking, VTP configuration | `switchport trunk allowed vlan`, `vtp domain`, `show vtp status` |
-| [Lab 3](/Labs/Lab3-InterVLAN-Routing) | Layer 3 Switching | SVI configuration, Router-on-a-stick | `interface vlan 10`, `encapsulation dot1q`, `show interface trunk` |
-| [Lab 4](/Labs/Lab4-OSPF) | OSPF Implementation | Multi-area OSPF, Route summarization | `area range`, `network 10.0.0.0 0.255.255.255 area 0`, `passive-interface` |
-| [Lab 5](/Labs/Lab5-EIGRP) | EIGRP Configuration | Metric calculation, Feasible successors | `variance`, `metric weights`, `show ip eigrp topology` |
-| [Lab 6](/Labs/Lab6-ACLs) | Network Security | Named ACLs, Reflexive ACLs | `ip access-list extended`, `evaluate`, `established` |
-| [Lab 7](/Labs/Lab7-NAT) | NAT/PAT | Overload configuration, Port forwarding | `ip nat inside source list`, `overload`, `clear ip nat translation *` |
-| [Lab 8](/Labs/Lab8-DHCP) | Network Services | DHCP relay, IPv6 addressing | `ip helper-address`, `ipv6 dhcp pool`, `debug dhcp` |
+| [Lab 1](Labs/Lab1-Basic-Device-Config) | Device Initialization | CLI proficiency, Password encryption | `enable secret`, `line console 0`, `service password-encryption` |
+| [Lab 2](Labs/Lab2-VLAN-Trunking) | Advanced VLANs | VLAN trunking, VTP configuration | `switchport trunk allowed vlan`, `vtp domain`, `show vtp status` |
+| [Lab 3](Labs/Lab3-InterVLAN-Routing) | Layer 3 Switching | SVI configuration, Router-on-a-stick | `interface vlan 10`, `encapsulation dot1q`, `show interface trunk` |
+| [Lab 4](Labs/Lab4-OSPF) | OSPF Implementation | Multi-area OSPF, Route summarization | `area range`, `network 10.0.0.0 0.255.255.255 area 0`, `passive-interface` |
+| [Lab 5](Labs/Lab5-EIGRP) | EIGRP Configuration | Metric calculation, Feasible successors | `variance`, `metric weights`, `show ip eigrp topology` |
+| [Lab 6](Labs/Lab6-ACLs) | Network Security | Named ACLs, Reflexive ACLs | `ip access-list extended`, `evaluate`, `established` |
+| [Lab 7](Labs/Lab7-NAT) | NAT/PAT | Overload configuration, Port forwarding | `ip nat inside source list`, `overload`, `clear ip nat translation *` |
+| [Lab 8](Labs/Lab8-DHCP) | Network Services | DHCP relay, IPv6 addressing | `ip helper-address`, `ipv6 dhcp pool`, `debug dhcp` |
 
 ---
 
@@ -61,13 +61,12 @@
 ✅ Multi-site OSPF with Area 0 backbone  
 ✅ IPv4/IPv6 dual-stack implementation  
 
-
 **Security Implementation:**  
 - Role-Based ACLs (HR/Engineering/Guest)  
 - 802.1X port authentication  
 - Zone-Based Firewall  
 
-📂 [Project Files](/Final-Project) 
+📂 [Project Files](Final-Project) 
 
 ---
 
